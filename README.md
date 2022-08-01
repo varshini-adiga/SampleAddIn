@@ -2,7 +2,7 @@
 * Clone this repository.
 * Download and Install NodeJS.
 * Open terminal and cd into the directory, where this repository was cloned.
-* Run `npm install` , this will install all the dev tools packages present in libs folder.
+* Run `npm install`, `npm run build`, `npm run installDep` , this will install all the dev tools packages present in libs folder.
 
 ## Set up Chrome
 * Open chrome://flags
