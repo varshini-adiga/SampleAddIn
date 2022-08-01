@@ -10,7 +10,7 @@
     "clean": "rimraf dist",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "instalDep": "node ./dist/install.js",
+    "installDep": "node ./dist/install.js",
     "update": "node ./dist/update.js",
     "test": "c8 mocha",
     "test:coverage": "npm run test && c8 check-coverage --lines 100 --functions 100 --branches 100"
