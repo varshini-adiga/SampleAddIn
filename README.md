@@ -47,3 +47,54 @@ DEBUG.setBrowserFlag("add-in-dev-tools-enabled", true);
 * Open the Developer Console in the Browser and execute command `DEBUG.enableAddInDeveloperMode()`. Executing this enables Developer mode in the Spice document for the current Browser's session. 
 * Now to sideload the hosted Add-In in the Spice document, execute the below command in the Developer Console
 `DEBUG.loadAddIn('<add-in-name>')`
+
+## Publishing the Add-In
+* Checkin the Add-In you created at https://github.com/adobe-uxp/hz-addin-upload/tree/main/em0/stage/add-ins .
+* https://github.com/adobe-uxp/hz-addin-upload/blob/main/em0/stage/add-ins.json file contains the list of add-ins available in the format mentioned below.
+```
+{
+    "children": [
+        {
+            "id": "4eb7034a",
+            "type": "widget",
+            "versionLatest": true,
+            "version": {
+                "versionString": "3.0.1",
+                "id": "49ecd346-98bf-4bfb-95ea-ed22b40e1a22",
+                "path": {
+                    "baseUrl": "https://cces-wxp-pkgs.stage.adobecces.com/path-to-add-in-dir/",
+                    "manifest": "manifest.json"
+                },
+                "publishedAt": "2022-02-24T11:02:32.000+00:00",
+                "categories": [
+                    "7ceb5bd0-cb14-11e9-a32f-2a2ae2dbcce4"
+                ],
+                "localizedMetadata": [
+                    {
+                        "values": {
+                            "name": "Workflow Helper",
+                            "summary": "Batch process for manual edits",
+                            "description": "NOTE: A License key is required."
+                        },
+                        "languages": "en"
+                    }
+                ],
+                "languages": [
+                    "en"
+                ],
+                "icons": [
+                    {
+                        "width": 192,
+                        "height": 192,
+                        "href": "https://.../icon.png"
+                    }
+                ],
+                // .....
+                // and similarly other add-in metadata such as "owner", "uniqueDownloadsCount", "rating","screenshots"
+                // .....
+            }
+        }
+    ],
+    //... same format for other add-ins
+}
+```
