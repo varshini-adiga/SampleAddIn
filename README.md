@@ -49,8 +49,8 @@ DEBUG.setBrowserFlag("add-in-dev-tools-enabled", true);
 `DEBUG.loadAddIn('<add-in-name>')`
 
 ## Publishing the Add-In
-* Checkin the Add-In you created at https://github.com/adobe-uxp/hz-addin-upload/tree/main/em0/stage/add-ins .
-* https://github.com/adobe-uxp/hz-addin-upload/blob/main/em0/stage/add-ins.json file contains the list of add-ins available in the format mentioned below.
+* Checkin the Add-In you created at [add-ins](https://github.com/adobe-uxp/hz-addin-upload/tree/main/em0/stage/add-ins) .
+* [add-ins.json](https://github.com/adobe-uxp/hz-addin-upload/blob/main/em0/stage/add-ins.json) file contains the list of add-ins available in the format mentioned below. Add entry for your add-in in the same format.
 ```
 {
     "children": [
