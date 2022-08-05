@@ -98,3 +98,4 @@ DEBUG.setBrowserFlag("add-in-dev-tools-enabled", true);
     //... same format for other add-ins
 }
 ```
+* Once your changes are merged to main branch, a Github actions job is triggered which copies your add-in to aws s3 bucket.
