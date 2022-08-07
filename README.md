@@ -53,7 +53,7 @@ DEBUG.setBrowserFlag("add-in-dev-tools-enabled", true);
 * [add-ins.json](https://github.com/adobe-uxp/hz-addin-upload/blob/main/em0/stage/add-ins.json) file contains the list of add-ins available in the format mentioned below. Add entry for your add-in in the same format.
 ```
 {
-    "children": [
+    "addIns": [
         {
             "id": "4eb7034a",
             "type": "widget",
