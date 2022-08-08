@@ -1,0 +1,47 @@
+{
+    "id": "todolist",
+    "name": "Todolist",
+    "version": "1.0.0",
+    "manifestVersion": 1,
+    "main": "ui.html",
+    "requirements": {
+        "apps": [
+            "Spice"
+        ]
+    },
+    "icon": [
+        {
+            "width": 100,
+            "height": 100,
+            "path": "icon-light.png",
+            "theme": [
+                "light"
+            ]
+        },
+        {
+            "width": 100,
+            "height": 100,
+            "path": "icon-dark.png",
+            "theme": [
+                "dark"
+            ]
+        }
+    ],
+    "entryPoints": [
+        {
+            "type": "widget",
+            "id": "todolist.entrypoint1",
+            "label": {
+                "default": "Todolist"
+            },
+            "sandbox": [
+                "allow-scripts",
+                "allow-same-origin"
+            ],
+            "defaultSize": {
+                "width": 300,
+                "height": 396
+            }
+        }
+    ]
+}

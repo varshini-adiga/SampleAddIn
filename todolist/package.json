@@ -1,0 +1,20 @@
+{
+    "name": "todolist",
+    "version": "1.0.0",
+    "description": "WXP widget application.",
+    "scripts": {
+        "clean": "wxp-scripts clean",
+        "build": "wxp-scripts build",
+        "start": "wxp-scripts start"
+    },
+    "keywords": [
+        "adobe",
+        "wxp",
+        "widget"
+    ],
+    "devDependencies": {
+        "@wxp/wxp-core": "file:../libs/wxp-core.tgz",
+        "@wxp/wxp-scripts": "file:../libs/wxp-scripts.tgz",
+        "prettier": "2.6.0"
+    }
+}
